@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatrQuestExample.Server", "MediatrQuestExample.Server\MediatrQuestExample.Server.csproj", "{637CBAC0-74F7-4901-BA77-F234BF1ECE33}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "mediatrquestexample.client", "mediatrquestexample.client\mediatrquestexample.client.esproj", "{7A3E7416-C081-4264-8A57-6E10621B4A9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637CBAC0-74F7-4901-BA77-F234BF1ECE33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637CBAC0-74F7-4901-BA77-F234BF1ECE33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637CBAC0-74F7-4901-BA77-F234BF1ECE33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637CBAC0-74F7-4901-BA77-F234BF1ECE33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3E7416-C081-4264-8A57-6E10621B4A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3E7416-C081-4264-8A57-6E10621B4A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3E7416-C081-4264-8A57-6E10621B4A9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7A3E7416-C081-4264-8A57-6E10621B4A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3E7416-C081-4264-8A57-6E10621B4A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3E7416-C081-4264-8A57-6E10621B4A9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {40B1AF82-5B56-41B8-A776-542AF9B2655D}
+	EndGlobalSection
+EndGlobal

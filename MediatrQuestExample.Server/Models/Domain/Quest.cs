@@ -2,13 +2,13 @@
 {
     public class Quest
     {
-        public Quest(Guid id, string title, string description, Guid firstStepId, Guid? prerequisiteQuestId = null)
+        public Quest(string id, string title, string description, string firstStepId, string? prerequisiteQuestId = null)
         {
-            Id = id;
+            Id = Guid.Parse(id);
             Title = title;
             Description = description;
-            FirstStepId = firstStepId;
-            PrerequisiteQuestId = prerequisiteQuestId;
+            FirstStepId = Guid.Parse(firstStepId);
+            PrerequisiteQuestId = prerequisiteQuestId != null ? Guid.Parse(prerequisiteQuestId) : null;
         }
 
         public Guid Id { get; set; }

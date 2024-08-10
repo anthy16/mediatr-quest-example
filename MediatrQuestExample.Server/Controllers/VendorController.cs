@@ -4,7 +4,7 @@ namespace MediatrQuestExample.Server.Controllers
 {
     [ApiController]
     [Route("api/[controller]/[action]")]
-    public class VendorController
+    public class VendorController : ControllerBase
     {
         private readonly ILogger<VendorController> _logger;
 
